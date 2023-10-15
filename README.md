@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-reverse
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import reverse from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@esm/index.mjs';
+var reverse = require( '@stdlib/ndarray-base-reverse' );
 ```
 
 #### reverse( x, writable )
@@ -60,8 +76,8 @@ import reverse from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@
 Returns a view of an input ndarray in which the order of elements along each dimension is reversed.
 
 ```javascript
-import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
+var ndarray = require( '@stdlib/ndarray-ctor' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 var shape = [ 3, 2 ];
@@ -116,16 +132,11 @@ The function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import reverse from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@esm/index.mjs';
+```javascript
+var array = require( '@stdlib/ndarray-array' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+var zeroTo = require( '@stdlib/array-base-zero-to' );
+var reverse = require( '@stdlib/ndarray-base-reverse' );
 
 // Create a linear ndarray buffer:
 var buf = zeroTo( 16 );
@@ -165,10 +176,6 @@ var y3 = reverse( x3, false );
 
 var a3 = ndarray2array( y3 );
 // returns [ [ [ 15, 14 ], [ 13, 12 ], [ 11, 10 ], [ 9, 8 ] ], [ [ 7, 6 ], [ 5, 4 ], [ 3, 2 ], [ 1, 0 ] ] ]
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -200,7 +207,7 @@ var a3 = ndarray2array( y3 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -230,8 +237,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-reverse.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-reverse
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-reverse/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-reverse/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/ndarray-base-reverse/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/ndarray-base-reverse/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-reverse/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-reverse?branch=main
