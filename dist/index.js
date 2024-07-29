@@ -1,5 +1,19 @@
-"use strict";var a=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=a(function(d,i){
-var l=require('@stdlib/slice-base-args2multislice/dist'),t=require('@stdlib/slice-ctor/dist'),n=require('@stdlib/array-base-filled/dist'),v=require('@stdlib/ndarray-base-slice/dist'),c=require('@stdlib/ndarray-base-ndims/dist');function q(e,r){var s=n(new t(null,null,-1),c(e));return v(e,l(s),!0,r)}i.exports=q
-});var m=u();module.exports=m;
-/** @license Apache-2.0 */
+"use strict";var a=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=a(function(d,i){"use strict";var l=require("@stdlib/slice-base-args2multislice"),t=require("@stdlib/slice-ctor"),n=require("@stdlib/array-base-filled"),v=require("@stdlib/ndarray-base-slice"),c=require("@stdlib/ndarray-base-ndims");function q(e,r){var s=n(new t(null,null,-1),c(e));return v(e,l(s),!0,r)}i.exports=q});var m=u();module.exports=m;
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2023 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 //# sourceMappingURL=index.js.map
