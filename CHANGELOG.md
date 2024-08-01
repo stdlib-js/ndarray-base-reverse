@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-01)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)
@@ -26,31 +60,7 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -60,42 +70,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-10-15)
 
-<section class="features">
-
-### Features
-
--   [`aff949b`](https://github.com/stdlib-js/stdlib/commit/aff949b5c2ee01b9aef69e471c735691b27ec370) - add `ndarray/base/reverse`
-
-</section>
-
-<!-- /.features -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`d1efd51`](https://github.com/stdlib-js/stdlib/commit/d1efd5153de57df1926a497ac56bb66c0f23329a) - **refactor:** use base array utility to create argument array _(by Athan Reines)_
--   [`aff949b`](https://github.com/stdlib-js/stdlib/commit/aff949b5c2ee01b9aef69e471c735691b27ec370) - **feat:** add `ndarray/base/reverse` _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
