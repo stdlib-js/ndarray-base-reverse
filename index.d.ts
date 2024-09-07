@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,24 +16,30 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return a view of an input ndarray in which the order of elements along each dimension is reversed.
+* Returns a view of an input ndarray in which the order of elements along each dimension is reversed.
 *
-* @module @stdlib/ndarray-base-reverse
+* @param x - input array
+* @param writable - boolean indicating whether a returned array should be writable
+* @returns output array
 *
 * @example
+* var typedarray = require( '@stdlib/array-typed' );
 * var ndarray = require( '@stdlib/ndarray-ctor' );
 * var ndarray2array = require( '@stdlib/ndarray-to-array' );
-* var reverse = require( '@stdlib/ndarray-base-reverse' );
 *
-* var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
+* var buffer = typedarray( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ], 'float64' );
 * var shape = [ 3, 2 ];
 * var strides = [ 2, 1 ];
 * var offset = 0;
 *
-* var x = ndarray( 'generic', buffer, shape, strides, offset, 'row-major' );
+* var x = ndarray( 'float64', buffer, shape, strides, offset, 'row-major' );
 * // returns <ndarray>
 *
 * var sh = x.shape;
@@ -51,12 +57,9 @@
 * arr = ndarray2array( y );
 * // returns [ [ 6.0, 5.0 ], [ 4.0, 3.0 ], [ 2.0, 1.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function reverse<T extends ndarray>( x: T, writable: boolean ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = reverse;
