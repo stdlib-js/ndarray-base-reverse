@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+reverse = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-reverse/tags). For example,
+
+```javascript
 reverse = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@v0.3.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var reverse = require( 'path/to/vendor/umd/ndarray-base-reverse/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -147,7 +152,7 @@ The function accepts the following arguments:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-reverse@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
