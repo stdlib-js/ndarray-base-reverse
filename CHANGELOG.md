@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-05-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`326e1cb`](https://github.com/stdlib-js/stdlib/commit/326e1cb6e7b06d68b93268376db4f76bd2aeacc4) - **test:** ensure support for dtype objects _(by Athan Reines)_
 -   [`4c6c7a1`](https://github.com/stdlib-js/stdlib/commit/4c6c7a13a022fb679e9f7793ce06b06674b21956) - **docs:** improve doctests for ndarray instances in `ndarray/base/reverse` [(#11509)](https://github.com/stdlib-js/stdlib/pull/11509) _(by Uday Kakade)_
 -   [`16f3ebe`](https://github.com/stdlib-js/stdlib/commit/16f3ebefefdfedb0a98d276312d35a8e6de2d195) - **bench:** refactor to use string interpolation in `ndarray/base/reverse` [(#11062)](https://github.com/stdlib-js/stdlib/pull/11062) _(by Partha Das)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Partha Das
 -   Uday Kakade
 
